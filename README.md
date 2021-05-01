@@ -1,6 +1,7 @@
 # qiita-zenn-migrator
 
-migrate qiita article to zenn
+migrate qiita article to zenn.  
+RESPECT: [Qiita の記事を zenn に移行したときにしたこと](https://zenn.dev/luna_chevalier/articles/ca9cb142a3111944f6af)
 
 ## How to use
 
@@ -16,11 +17,9 @@ mv articles/qiita/hogehoge.json articles/qiita/awesome-title.json
 rm articles/qiita/not-migration-target.json
 ...
 
-# 4. 画像をzenn.devにアップロードします。 / migrate images.
 
-
-# 5. 記事をzenn.dev形式に変換します。 / migrate articles
-
+# 4. 記事をzenn.dev形式に変換します。 / migrate articles
+yarn migrate-articles
 ```
 
 ## Disclaimer

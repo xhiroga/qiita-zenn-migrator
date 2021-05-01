@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "migrate qiita articles to zenn.dev",
   "scripts": {
-    "get-qiita-articles": "npx ts-node bin/get-qiita-articles.ts"
+    "get-qiita-articles": "npx ts-node bin/get-qiita-articles.ts",
+    "migrate-articles": "npx ts-node bin/migrate-articles.ts"
   },
   "repository": "https://github.com/xhiroga/qiita-zenn-migrator",
   "author": "Hiroaki Ogasawara <13391129+xhiroga@users.noreply.github.com>",
