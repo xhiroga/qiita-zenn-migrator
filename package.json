@@ -1,0 +1,13 @@
+{
+  "name": "qiita-zenn-migrator",
+  "version": "1.0.0",
+  "description": "migrate qiita articles to zenn.dev",
+  "main": "index.js",
+  "repository": "https://github.com/xhiroga/qiita-zenn-migrator",
+  "author": "Hiroaki Ogasawara <13391129+xhiroga@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "typescript": "^4.2.4"
+  }
+}
