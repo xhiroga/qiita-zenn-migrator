@@ -5,13 +5,21 @@ migrate qiita article to zenn
 ## How to use
 
 ```shell
-# 1. download Qiita articles.
-USER_ID=$USER_ID yarn get-qiita-articles
+# 1. Qiitaの記事をダウンロードします。 / download Qiita articles.
+USER_ID=$YOUR_QIITA_USER_ID yarn get-qiita-articles
 
-# 2. migrate images
+# 2. zenn.devにおけるslugを決めます。 / rename files if you fix slug.
+mv articles/qiita/hogehoge.json articles/qiita/awesome-title.json
+...
+
+# 3. zenn.devに移行しない記事を手動で削除します。 / remove articles which are not migration target by hand.
+rm articles/qiita/not-migration-target.json
+...
+
+# 4. 画像をzenn.devにアップロードします。 / migrate images.
 
 
-# 3. migrate articles
+# 5. 記事をzenn.dev形式に変換します。 / migrate articles
 
 ```
 
